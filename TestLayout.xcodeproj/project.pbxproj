@@ -17,6 +17,7 @@
 		0000A0C01D7826260059CF3D /* TestLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000A0BF1D7826260059CF3D /* TestLayoutUITests.m */; };
 		0000A0D01D7826BD0059CF3D /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000A0CE1D7826BD0059CF3D /* TableViewCell.m */; };
 		0000A0D11D7826BD0059CF3D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0000A0CF1D7826BD0059CF3D /* TableViewCell.xib */; };
+		000452741D7831F700C8C551 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000452731D7831F700C8C551 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		0000A0CD1D7826BD0059CF3D /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		0000A0CE1D7826BD0059CF3D /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		0000A0CF1D7826BD0059CF3D /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		000452731D7831F700C8C551 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000452741D7831F700C8C551 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +89,7 @@
 		0000A08E1D7826250059CF3D = {
 			isa = PBXGroup;
 			children = (
+				000452731D7831F700C8C551 /* CoreImage.framework */,
 				0000A0991D7826260059CF3D /* TestLayout */,
 				0000A0B31D7826260059CF3D /* TestLayoutTests */,
 				0000A0BE1D7826260059CF3D /* TestLayoutUITests */,
@@ -508,6 +512,7 @@
 				0000A0C61D7826260059CF3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0000A0C71D7826260059CF3D /* Build configuration list for PBXNativeTarget "TestLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +521,7 @@
 				0000A0C91D7826260059CF3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0000A0CA1D7826260059CF3D /* Build configuration list for PBXNativeTarget "TestLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +530,7 @@
 				0000A0CC1D7826260059CF3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
